@@ -14,7 +14,7 @@ namespace FirstDemo
             Console.WriteLine("Please enter the right operand:");
             rightOperand = int.Parse(Console.ReadLine());
 
-            result = leftOperand+rightOperand;
+            result = leftOperand / rightOperand;
 
             Console.WriteLine("The result of "+leftOperand+" + "+rightOperand+ "is: "+result);
 
