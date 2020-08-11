@@ -6,18 +6,35 @@ namespace FirstDemo
     {
         static void Main(string[] args)
         {
-            int leftOperand, rightOperand, result;
+            // > 
+            // <
+            // >=
+            //<=
+            // ==
+            // !=
 
-            Console.WriteLine("Please enter the left operand:");
-            leftOperand = int.Parse(Console.ReadLine());
+            // &&
+            // ||
 
-            Console.WriteLine("Please enter the right operand:");
-            rightOperand = int.Parse(Console.ReadLine());
+            //Console.WriteLine(4 >2 && (5*4 == 22 || 8 /3 == 2));
+            int age;
 
-            result = leftOperand / rightOperand;
+            Console.WriteLine("Please enter your age");
+            age = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("The result of "+leftOperand+" + "+rightOperand+ "is: "+result);
 
+            if(age >= 18)
+            {
+                Console.WriteLine("You are legally allowed to gamble in Alberta");
+            }
+
+            
+            
+            
+            // Console.WriteLine("Hello".ToUpper() == "hello".ToUpper());
+
+
+            
         }
     }
 }
